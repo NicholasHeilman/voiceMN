@@ -1,0 +1,88 @@
+ls<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title>LLama Vox</title>
+</head>
+<div id="header">
+    <span id="hw" class="default">llama</span>
+</div>
+<div id="buttons">
+    <button id="voiceStart">Voice Start</button>
+    <button id="voiceEnd">Voice End</button>
+</div>
+<div>
+    <input id="entryField" placeholder="Search">
+</div>
+<div id="buttons2">
+    <button id="btnSave" class="commandButton"><span class="under">Save</span></button>
+    <button id="btnDelete" class="commandButton"><span class="under">Delete</span></button>
+    <button id="btnTodo" class="commandButton"><span class="under">To do</span></button>
+    <button id="btnGoogle" class="commandButton"><span class="under">Search</span> Google</button>
+    <button id="btnSearchCSS" class="commandButton">Go to MDN <span class="under">CSS</span></button>
+    <button id="btnSearchJQuery" class="commandButton">Go to <span class="under">jQuery</span></button>
+    <button id="btnAnnyang" class="commandButton">Go to <span class="under">Voice Reference</span></button>
+    <button id="btnWiktionary" class="commandButton"><span class="under">Wiktionary</span></button>
+    <button id="btnEmail" class="commandButton"><span class="under">Email</span></button>
+</div>
+<div id="buttons3" class="translation">
+    <button id="btnTranslate" class="commandButton"><span class="under">Translate</span></button>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        </div>
+    </div>
+</div>
+<div id="links" class="links">
+    <a target="_blank" rel="noopener" href="https://stackoverflow.com">Stack Overflow</a>
+    <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>
+    <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS
+        Reference</a>
+    <a target="_blank" rel="noopener" href="https://github.com/TalAter/annyang/blob/master/docs/README.md">Annyang
+        ReadMe</a>
+</div>
+<div id="links2" class="links">
+</div>
+<div id="workbench">
+    <ul id="ulKeys">
+    </ul>
+    <textarea id="textBox" class="pane">Hello</textarea>
+    <textarea id="log" class="pane">Log</textarea>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/esprima/2.7.3/esprima.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.13.1/js-yaml.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-firestore.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.js"></script>
+
+<script src="lib/bootstrap-notify.js"></script>
+<script src="lib/localForage.js"></script>
+<script src="lib/yaml.js"></script>
+<script src="js/firestorage.js"></script>
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
