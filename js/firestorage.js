@@ -5,13 +5,13 @@ class Firestorage {
 		}
 		// Your web app's Firebase configuration
 		const firebaseConfig = {
-			apiKey: "AIzaSyDRINvAGWQVjskeZsJNtnU_PsFuADCrp1s",
-			authDomain: "llamavox.firebaseapp.com",
-			databaseURL: "https://llamavox.firebaseio.com",
-			projectId: "llamavox",
-			storageBucket: "llamavox.appspot.com",
-			messagingSenderId: "654528791640",
-			appId: "1:654528791640:web:28d574b8a638a3d8",
+			apiKey: "AIzaSyCrNiCp-cIo5beZXivO4pwNy7vTH1Sc8O4",
+			authDomain: "llamavox2.firebaseapp.com",
+			databaseURL: "https://llamavox2.firebaseio.com",
+			projectId: "llamavox2",
+			storageBucket: "",
+			messagingSenderId: "1043942068151",
+			appId: "1:1043942068151:web:9eb53125f50c74bd"
 		};
 		// Initialize Firebase
 		firebase.initializeApp(firebaseConfig);
